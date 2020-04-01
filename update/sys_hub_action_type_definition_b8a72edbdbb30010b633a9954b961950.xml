@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get geographic data from a public IP address.</description>
+        <internal_name>get_geographic_data_from_ip</internal_name>
+        <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP address","type":"action","ref":""},{"name":"{{step[9f887c7d-5f52-4174-8840-6f7ea145d116].response_body}}","label":"step➛Call IPInfo REST API➛Response Body","type":"step","ref":""},{"name":"{{step[9f887c7d-5f52-4174-8840-6f7ea145d116].status_code}}","label":"step➛Call IPInfo REST API➛Status Code","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].h}}","label":"step➛Parse Returned Data➛h","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].ho}}","label":"step➛Parse Returned Data➛ho","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].hos}}","label":"step➛Parse Returned Data➛hos","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].host_1}}","label":"step➛Parse Returned Data➛host_1","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].c}}","label":"step➛Parse Returned Data➛c","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].ci}}","label":"step➛Parse Returned Data➛ci","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].cit}}","label":"step➛Parse Returned Data➛cit","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].city}}","label":"step➛Parse Returned Data➛city","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].region}}","label":"step➛Parse Returned Data➛region","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].country}}","label":"step➛Parse Returned Data➛country","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].latitude}}","label":"step➛Parse Returned Data➛latitude","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].longitude}}","label":"step➛Parse Returned Data➛longitude","type":"step","ref":""},{"name":"{{step[a2541704-1827-443f-8071-a02675638a34].}}","label":"step➛Parse Returned Data➛","type":"step","ref":""},{"name":"{{step[9f887c7d-5f52-4174-8840-6f7ea145d116].u_ipinfo_token}}","label":"step➛Call IPInfo REST API➛IPInfo Token","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Geographic Data from IP</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 11:26:35</sys_created_on>
+        <sys_id>b8a72edbdbb30010b633a9954b961950</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Get Geographic Data from IP</sys_name>
+        <sys_package display_value="IPInfo Spoke" source="x_351317_ipinfo_sp">efc62ed7dbb30010b633a9954b961978</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">efc62ed7dbb30010b633a9954b961978</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b8a72edbdbb30010b633a9954b961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 15:55:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b8a72edbdbb30010b633a9954b961950"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b8a72edbdbb30010b633a9954b961950"/>
+    <sys_element_mapping action="delete_multiple" query="id=b8a72edbdbb30010b633a9954b961950"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>city</field>
+        <id>b8a72edbdbb30010b633a9954b961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 13:24:49</sys_created_on>
+        <sys_id>74b2c71fdbf30010b633a9954b961965</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 13:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b8a72edbdbb30010b633a9954b961950</table>
+        <value>{{step[a2541704-1827-443f-8071-a02675638a34].city}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>country</field>
+        <id>b8a72edbdbb30010b633a9954b961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 13:24:49</sys_created_on>
+        <sys_id>fcb2c71fdbf30010b633a9954b961964</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 13:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b8a72edbdbb30010b633a9954b961950</table>
+        <value>{{step[a2541704-1827-443f-8071-a02675638a34].country}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>hostname</field>
+        <id>b8a72edbdbb30010b633a9954b961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 13:24:49</sys_created_on>
+        <sys_id>b0b2c71fdbf30010b633a9954b961965</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 13:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b8a72edbdbb30010b633a9954b961950</table>
+        <value>{{step[a2541704-1827-443f-8071-a02675638a34].host_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ip_address</field>
+        <id>b8a72edbdbb30010b633a9954b961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 13:20:21</sys_created_on>
+        <sys_id>d3a1cbdbdbf30010b633a9954b961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 13:20:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b8a72edbdbb30010b633a9954b961950</table>
+        <value>{{action.ip_address}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>latitude</field>
+        <id>b8a72edbdbb30010b633a9954b961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 13:24:49</sys_created_on>
+        <sys_id>38b2c71fdbf30010b633a9954b961965</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 13:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b8a72edbdbb30010b633a9954b961950</table>
+        <value>{{step[a2541704-1827-443f-8071-a02675638a34].latitude}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>longitude</field>
+        <id>b8a72edbdbb30010b633a9954b961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 13:24:49</sys_created_on>
+        <sys_id>bcb2c71fdbf30010b633a9954b961965</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 13:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b8a72edbdbb30010b633a9954b961950</table>
+        <value>{{step[a2541704-1827-443f-8071-a02675638a34].longitude}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>region</field>
+        <id>b8a72edbdbb30010b633a9954b961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-01 13:24:49</sys_created_on>
+        <sys_id>f8b2c71fdbf30010b633a9954b961965</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-01 13:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b8a72edbdbb30010b633a9954b961950</table>
+        <value>{{step[a2541704-1827-443f-8071-a02675638a34].region}}</value>
+    </sys_element_mapping>
+</record_update>
